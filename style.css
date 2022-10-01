@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500&family=Outfit:wght@400;700&display=swap');
+body, main {
+	margin: 0;
+	padding: 0;
+}
+main {
+	background: hsl(212, 45%, 89%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	box-sizing: border-box;
+	font-family: Outfit, sans-serif;
+	font-size: 15px;
+	
+}
+
+.container {
+	width: 20%;
+	padding: 10px;
+	background: white;
+	min-width: 270px;
+	box-shadow: 0 0 5px #4e4e4e,
+				0 0 10px #ddd,
+				0 0 20px #eee;;
+	
+}
+.container h2, .container p {
+	text-align: center;
+}
+img {
+	width: 100%;
+}
+img, .container {
+	border-radius: 10px;
+}
